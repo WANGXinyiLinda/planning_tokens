@@ -56,6 +56,8 @@ Key arguments:
 
 * `--num_test`: The maximum number of testing examples to be evaluated at the end of each epoch. We set this to 1000.
 
+* `--int8_training`: Turn on this flag to save more GPU memories. Might impact the model performance.
+
 ### Evaluation
 
 In the paper, we report the epoch producing the highest eval accuracy. The accuracy evaluation has been built in the training loop, and can be checked in the `trainer_state.json` file saved in the checkpoints as `eval_acc`.
