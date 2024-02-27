@@ -1,0 +1,14 @@
+accelerate
+transformers == 4.31.0
+sentencepiece
+datasets
+wandb
+torch >= 2.0.1
+peft == 0.5.0
+sentence_transformers
+bitsandbytes
+optimum
+nltk
+matplotlib
+scikit-learn
+einops

@@ -1,0 +1,7 @@
+checkpoints/*
+wandb/*
+*.pyc
+**/*.pt
+**/__pycache__/*
+__pycache__/*
+load_data/extract_steps/*
