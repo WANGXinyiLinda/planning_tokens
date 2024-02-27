@@ -33,7 +33,7 @@ CUDA_VISIBLE_DEVICES=7 python train.py \
     --embedding_model_name $MODEL \
     --extract_step_type_tokens $STEP_TYPE \
     --num_plan_types 5 \
-    --num_test 100 \
+    --num_test 1000 \
     --lora_module mlp \
     --int8_training True \
     # --gradient_checkpointing \

@@ -54,6 +54,8 @@ Key arguments:
 
 * `--model_max_length`: We set this to 512 for `gsm8k` and 1024 for `math` and `aqua`.
 
+* `--num_test`: The maximum number of testing examples to be evaluated at the end of each epoch. We set this to 1000.
+
 ### Evaluation
 
 In the paper, we report the epoch producing the highest eval accuracy. The accuracy evaluation has been built in the training loop, and can be checked in the `trainer_state.json` file saved in the checkpoints as `eval_acc`.
