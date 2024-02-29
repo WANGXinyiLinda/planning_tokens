@@ -36,7 +36,7 @@ The `train.sh` script can be used for (parameter efficient) fine-tuning a pre-tr
 
 Key arguments:
 
-* `--dataset`: Same as `--dataset` in `./load_data/step_types`.
+* `--dataset`: Same as `--dataset` in `step_type.sh`.
 
 * `--model_name_or_path`: Base model name/path.
 
