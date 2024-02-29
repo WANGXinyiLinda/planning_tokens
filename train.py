@@ -49,8 +49,7 @@ class ModelArguments:
 @dataclass
 class DataArguments:
     dataset: str = field(default="gsm8k", 
-        metadata={"help": "dataset name on Huggingface."},
-        metadata={"choices": ["gsm8k", "aqua", "math"]})
+        metadata={"help": "dataset name on Huggingface.", "choices": ["gsm8k", "aqua", "math"]})
     mode: str = field(default="supervised", metadata={"choices": ["supervised", "constant_len"]})
     use_demonstrations: Optional[bool] = field(default=False)
     demo_selection: Optional[str] = field(default="uniform")
